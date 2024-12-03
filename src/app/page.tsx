@@ -1,58 +1,42 @@
-import Image from "next/image";
+
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        Rodrigo Guerreiro
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+    <div className="grid grid-cols-2 grid-flow-col items-center justify-items-center min-h-screen p-10 gap-10 sm:p-28">
+      <div className="h-full w-full">
+        <header className="bg-orange-500 flex flex-col gap-6 fixed">
+          <span className="text-7xl">
+            Rodrigo<br></br>Guerreiro
+          </span>
+          Senior Full Stack Developer
+
+        </header>
+
+      </div>
+      <div className="h-full">
+        <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start overflow-scroll">
+          <div className="flex max-h-200">
+
+            With almost a decade of experience, I've designed, developed and
+            maintained complex solutions for a wide range of industries, from real
+            estate portfolio management to live music booking platforms.
+            I've successfully worked with cross-functional teams ranging from 2 to
+            20+ engineers, using modern technologies like Ruby on Rails, React and
+            Elasticsearch, among others, and using agile methodologies like Scrum
+            and Kanban.
+            I'm driven by collaboration and open communication in order to solve
+            problems and achieve exceptional results.
+            With almost a decade of experience, I've designed, developed and
+            maintained complex solutions for a wide range of industries, from real
+            estate portfolio management to live music booking platforms.
+            I've successfully worked with cross-functional teams ranging from 2 to
+            20+ engineers, using modern technologies like Ruby on Rails, React and
+            Elasticsearch, among others, and using agile methodologies like Scrum
+            and Kanban.
+          </div>
+        </main>
+
+      </div>
     </div>
   );
 }
