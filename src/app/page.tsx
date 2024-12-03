@@ -1,4 +1,4 @@
-import { Button } from "@nextui-org/react";
+import ThemeSwitch from "@/components/theme-switch";
 
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
             Rodrigo<br></br>Guerreiro
           </span>
           Senior Full Stack Developer
-
+          <ThemeSwitch />
         </header>
 
       </div>
