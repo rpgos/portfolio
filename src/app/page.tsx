@@ -1,10 +1,11 @@
+import { Button } from "@nextui-org/react";
 
 
 export default function Home() {
   return (
     <div className="grid grid-cols-2 grid-flow-col items-center justify-items-center min-h-screen p-10 gap-10 sm:p-28">
       <div className="h-full w-full">
-        <header className="bg-orange-500 flex flex-col gap-6 fixed">
+        <header className="flex flex-col gap-6 fixed">
           <span className="text-7xl">
             Rodrigo<br></br>Guerreiro
           </span>

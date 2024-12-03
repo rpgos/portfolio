@@ -17,5 +17,24 @@ export default {
     },
   },
   darkMode: "class",
-  plugins: [nextui()],
+  plugins: [nextui({
+    themes: {
+      dark: {
+        colors: {
+          background: "#1C0F13",
+          foreground: "#BBBAC6",
+          primary: "#E2C044",
+          secondary: "#AF97C3",
+        }
+      },
+      light: {
+        colors: {
+          background: "#E2C044",
+          foreground: "#1C0F13",
+          primary: "#255957",
+          secondary: "#AF97C3",
+        }
+      },
+    }
+  })],
 } satisfies Config;
