@@ -1,11 +1,9 @@
 import { Link } from "@nextui-org/react";
+import Section from "./section";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="flex flex-col gap-5">
-      <div className="text-xl lg:hidden sticky top-0 py-4 z-10 bg-content1/90">
-        About
-      </div>
+    <Section id="about" title="About">
       <p>
         {"I'm a developer focused on usability, design and performance."}
       </p>
@@ -15,7 +13,7 @@ export default function AboutSection() {
         <Link target="_blank" href="https://agrimp.com/">agricultural fair-trade platforms</Link> and&nbsp;
         <Link target="_blank" href="https://www.moodyscre.com/persona/emea/">real
         estate portfolio management</Link> to <Link target="_blank" href="https://www.gigmit.com">
-        live music booking platforms</Link>
+        live music booking platforms</Link>.
       </p>
       <p>
         I&apos;ve successfully worked with cross-functional teams ranging from 2 to
@@ -37,6 +35,6 @@ export default function AboutSection() {
         <Link target="_blank" href="https://open.spotify.com/artist/1Zd6VFfOVh04zXMVpK96Xy?si=QOPzPpg3SwCKHvzxw0ubGQ">make music</Link>,
         play tennis, bake my own pizza and hangout with friends.
       </p>
-    </section>
+    </Section>
   )
 }
