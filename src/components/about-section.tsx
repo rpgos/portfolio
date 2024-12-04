@@ -2,8 +2,8 @@ import { Link } from "@nextui-org/react";
 
 export default function AboutSection() {
   return (
-    <section className="flex flex-col gap-5">
-      <div className="text-xl lg:hidden sticky top-0">
+    <section id="about" className="flex flex-col gap-5">
+      <div className="text-xl lg:hidden sticky top-0 py-4 z-10 bg-content1/90">
         About
       </div>
       <p>

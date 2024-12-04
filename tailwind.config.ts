@@ -25,6 +25,7 @@ export default {
           foreground: "#BBBAC6",
           primary: "#E2C044",
           secondary: "#AF97C3",
+          'content1': "#1C0F13"
         }
       },
       light: {
@@ -33,6 +34,7 @@ export default {
           foreground: "#1C0F13",
           primary: "#255957",
           secondary: "#AF97C3",
+          'content1': "#E2C044"
         }
       },
     }
