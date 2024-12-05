@@ -20,8 +20,8 @@ export const jobs: Job[] = [
       Responsible for an API integration to consume gigmit data and perform authentication with JWT for a mobile app, \
       in a project with 3 european partners",
     stack: ["Ruby on Rails", "Backbone.js", "Postgres", "Docker", "SCRUM", "Elasticsearch", "Figma", "Kanban", "JWT"],
-    company: "realxdata (now a Moody's company)",
-    companyUrl: "https://www.moodyscre.com/persona/emea/"
+    company: "gigmit",
+    companyUrl: "https://www.gigmit.com"
   },
   {
     start: 2019,
