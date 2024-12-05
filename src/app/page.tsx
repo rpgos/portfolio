@@ -1,5 +1,6 @@
 import AboutSection from "@/components/about-section";
 import ExperienceSection from "@/components/experience-section";
+import SideProjectsSection from "@/components/side-projects-section";
 import ThemeSwitch from "@/components/theme-switch";
 
 
@@ -22,6 +23,7 @@ export default function Home() {
         <main className="flex flex-col row-start-2 items-center sm:items-start">
           <AboutSection />
           <ExperienceSection />
+          <SideProjectsSection />
         </main>
       </div>
     </div>

@@ -1,11 +1,11 @@
 export type Job = {
-  start: string | number
-  end: string | number
+  start?: string | number
+  end?: string | number
   endYear?: number
   title: string
   description: string
   stack: string[]
-  company: string
+  company?: string
   companyUrl: string
 }
 
@@ -78,5 +78,23 @@ export const jobs: Job[] = [
     stack: ["Java", "Android", "REST", "SCRUM", "XML"],
     company: "Youship",
     companyUrl: "https://www.you-ship.com/"
+  }
+]
+
+export const projects: Job[] = [
+  {
+    title: "King Gizzard's Last Release",
+    description: "Designed and developed a Next.js app with TailwindCSS that uses Spotify's API for data consumption \
+      and gives music recommendations. Used Vercel for deployment, test environments and DB hosting. Developed a payment solution \
+      with Paypal but removed the payment feature for the time being.",
+    stack: ["Next.js", "React", "Spotify API", "Paypal", "Prisma", "Typescript", "TailwindCSS"],
+    companyUrl: "https://kinggizzardlastrelease.vercel.app/"
+  },
+  {
+    title: "Al-Mudawwar",
+    description: "Designed, developed and deployed an SPA for my musical project using React, Vite, Typescript and Bulma to \
+    help on the design side. Used Vercel for deployment, test environments and file hosting.",
+    stack: ["React", "Bulma", "Vite", "Typescript"],
+    companyUrl: "https://almudawwar.vercel.app/"
   }
 ]
