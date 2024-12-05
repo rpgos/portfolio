@@ -1,4 +1,5 @@
 import AboutSection from "@/components/about-section";
+import ExperienceSection from "@/components/experience-section";
 import ThemeSwitch from "@/components/theme-switch";
 
 
@@ -10,7 +11,9 @@ export default function Home() {
           <span className="text-6xl md:text-7xl">
             Rodrigo<br></br>Guerreiro
           </span>
-          Senior Full Stack Developer
+          <span className="text-lg">
+            Senior Full Stack Developer
+          </span>
           <ThemeSwitch />
         </header>
 
@@ -18,6 +21,7 @@ export default function Home() {
       <div className="h-full">
         <main className="flex flex-col row-start-2 items-center sm:items-start">
           <AboutSection />
+          <ExperienceSection />
         </main>
       </div>
     </div>
