@@ -25,7 +25,13 @@ export default {
           foreground: "#BBBAC6",
           primary: "#E2C044",
           secondary: "#AF97C3",
-          'content1': "#1C0F13"
+          'content1': {
+            DEFAULT: "#1C0F13",
+            200: "#85475A",
+            400: "#6A3948",
+            600: "#4F2B36",
+            800: "#351D24",
+          }
         }
       },
       light: {
@@ -34,7 +40,13 @@ export default {
           foreground: "#1C0F13",
           primary: "#255957",
           secondary: "#AF97C3",
-          'content1': "#E2C044"
+          'content1': {
+            DEFAULT: "#E2C044",
+            200: "#A18317",
+            400: "#7D6612",
+            600: "#59480D",
+            800: "#352B08",
+          }
         }
       },
     }
