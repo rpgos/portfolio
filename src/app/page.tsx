@@ -1,6 +1,7 @@
 import AboutSection from "@/components/about-section";
 import ExperienceSection from "@/components/experience-section";
 import ExternalLinks from "@/components/external-links";
+import Footer from "@/components/footer";
 import SideProjectsSection from "@/components/side-projects-section";
 import ThemeSwitch from "@/components/theme-switch";
 
@@ -26,6 +27,7 @@ export default function Home() {
           <AboutSection />
           <ExperienceSection />
           <SideProjectsSection />
+          <Footer />
         </main>
       </div>
     </div>
