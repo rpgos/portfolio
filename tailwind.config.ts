@@ -1,4 +1,4 @@
-import { nextui } from "@nextui-org/react";
+import { colors, nextui } from "@nextui-org/react";
 import type { Config } from "tailwindcss";
 
 export default {
@@ -21,34 +21,44 @@ export default {
     themes: {
       dark: {
         colors: {
-          background: "#1C0F13",
-          foreground: "#BBBAC6",
+          background: "#3d1f0b",
+          foreground: "#fdfbed",
           primary: "#E2C044",
-          secondary: "#AF97C3",
+          secondary: "#034C3C",
           'content1': {
-            DEFAULT: "#1C0F13",
-            200: "#85475A",
-            400: "#6A3948",
-            600: "#4F2B36",
-            800: "#351D24",
-          }
+            '50': '#fdfbed',
+            '100': '#f7f2ce',
+            '200': '#efe498',
+            '300': '#e7d062',
+            '400': '#e2c044',
+            '500': '#d9a227',
+            '600': '#c07f1f',
+            '700': '#9f5e1e',
+            '800': '#824a1e',
+            '900': '#6b3d1c',
+          },
         }
       },
       light: {
         colors: {
-          background: "#E2C044",
-          foreground: "#1C0F13",
-          primary: "#255957",
-          secondary: "#AF97C3",
+          background: "#f7f2ce",
+          foreground: "#6b3d1c",
+          primary: '#c07f1f',
+          secondary: "#034C3C",
           'content1': {
-            DEFAULT: "#E2C044",
-            200: "#A18317",
-            400: "#7D6612",
-            600: "#59480D",
-            800: "#352B08",
-          }
+            '50': '#fdfbed',
+            '100': '#f7f2ce',
+            '200': '#efe498',
+            '300': '#e7d062',
+            '400': '#e2c044',
+            '500': '#d9a227',
+            '600': '#c07f1f',
+            '700': '#9f5e1e',
+            '800': '#824a1e',
+            '900': '#6b3d1c',
+          },
         }
-      },
+      }
     }
   })],
 } satisfies Config;

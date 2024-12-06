@@ -32,7 +32,7 @@ export default function AboutSection() {
       </p>
       <p>
         On my free time, I like to &nbsp;
-        <Link target="_blank" href="https://open.spotify.com/artist/1Zd6VFfOVh04zXMVpK96Xy?si=QOPzPpg3SwCKHvzxw0ubGQ">make music</Link>,
+        <Link target="_blank" href="https://open.spotify.com/artist/1Zd6VFfOVh04zXMVpK96Xy?si=QOPzPpg3SwCKHvzxw0ubGQ">create music</Link>,
         play tennis, bake my own pizza and hangout with friends.
       </p>
     </Section>

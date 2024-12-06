@@ -64,7 +64,6 @@ export default function ThemeSwitch() {
       onValueChange={onSwitch}
       startContent={<SunIcon />}
       endContent={<MoonIcon />}
-      
     />
   )
 }

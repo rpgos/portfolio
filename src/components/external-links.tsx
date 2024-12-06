@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function ExternalLinks() {
   return (
-    <div className="flex gap-3 p-2 w-fit bg-content1-400 rounded-full">
+    <div className="flex gap-3 p-2 w-fit bg-content1-800 rounded-full">
       <Link target="_blank" href="https://github.com/rpgos">
         <Image
           src="/github.svg"
