@@ -1,5 +1,6 @@
 import AboutSection from "@/components/about-section";
 import ExperienceSection from "@/components/experience-section";
+import ExternalLinks from "@/components/external-links";
 import SideProjectsSection from "@/components/side-projects-section";
 import ThemeSwitch from "@/components/theme-switch";
 
@@ -15,6 +16,7 @@ export default function Home() {
           <span className="text-lg">
             Senior Full Stack Developer
           </span>
+          <ExternalLinks />
           <ThemeSwitch />
         </header>
 
