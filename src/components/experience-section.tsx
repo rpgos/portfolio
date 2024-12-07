@@ -5,9 +5,9 @@ import Project from "./project";
 
 export default function ExperienceSection() {
   return (
-    <Section id="experience" title="Experience">
+    <Section id="career" title="Career">
       {
-        jobs.map(job => (<Project job={job} />))
+        jobs.map(job => (<Project key={job.company} job={job} />))
       }
       <Link target="_blank" href="/cv.pdf" underline="always" className="text-sm">
         View full CV

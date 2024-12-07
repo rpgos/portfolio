@@ -20,6 +20,14 @@ export default function ExternalLinks() {
           alt="LinkedIn"
         />
       </Link>
+      <Link href="#">
+        <Image
+          src="/mail.svg"
+          width={30}
+          height={30}
+          alt="Email"
+        />
+      </Link>
       <Link target="_blank" href="https://open.spotify.com/artist/1Zd6VFfOVh04zXMVpK96Xy?si=0t9lT5kaRVSqArFxAg4YPg">
         <Image
           src="/spotify.svg"
