@@ -1,7 +1,13 @@
+'use client'
+
+import { useDisclosure } from "@nextui-org/react";
 import Image from "next/image";
 import Link from "next/link";
+import ContactModal from "./ContactModal";
 
 export default function ExternalLinks() {
+  const {isOpen, onOpen, onOpenChange } = useDisclosure()
+
   return (
     <div className="flex gap-3 p-2 w-fit bg-content1-800 rounded-full">
       <Link target="_blank" href="https://github.com/rpgos">
@@ -20,7 +26,7 @@ export default function ExternalLinks() {
           alt="LinkedIn"
         />
       </Link>
-      <Link href="#">
+      <Link href="#" onClick={onOpen}>
         <Image
           src="/mail.svg"
           width={30}
@@ -36,6 +42,7 @@ export default function ExternalLinks() {
           alt="Spotify"
         />
       </Link>
+      <ContactModal isOpen={isOpen} onOpenChange={onOpenChange} />
     </div>
   )
 }

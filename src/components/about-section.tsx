@@ -1,7 +1,12 @@
-import { Link } from "@nextui-org/react";
+'use client'
+
+import { Link, useDisclosure } from "@nextui-org/react";
 import Section from "./section";
+import ContactModal from "./ContactModal";
 
 export default function AboutSection() {
+  const {isOpen, onOpen, onOpenChange } = useDisclosure()
+
   return (
     <Section id="about" title="About">
       <p>
@@ -24,7 +29,7 @@ export default function AboutSection() {
       <p>
         Currently I am looking for a new challenge and company with a product and values
         I can identify myself with and with a clear roadmap of the future we can build together
-        as a team. If you&apos;re looking for a team player, <Link>send me a message!</Link>
+        as a team. If you&apos;re looking for a team player, <Link onClick={onOpen} href="#">send me a message!</Link>
       </p>
       <p>
         I&apos;m driven by collaboration and open communication in order to build great team spirit,
@@ -35,6 +40,7 @@ export default function AboutSection() {
         <Link target="_blank" href="https://open.spotify.com/artist/1Zd6VFfOVh04zXMVpK96Xy?si=QOPzPpg3SwCKHvzxw0ubGQ">create music</Link>,
         play tennis, bake my own pizza and hangout with friends.
       </p>
+      <ContactModal isOpen={isOpen} onOpenChange={onOpenChange} />
     </Section>
   )
 }
