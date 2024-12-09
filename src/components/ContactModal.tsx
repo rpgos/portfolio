@@ -3,6 +3,7 @@
 import sendEmail from "@/actions/send-email";
 import { Button, Input, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, Textarea } from "@nextui-org/react";
 import { useActionState, useEffect, useState } from "react";
+import toast from "react-hot-toast";
 
 interface ModalProps {
   isOpen: boolean
@@ -22,6 +23,7 @@ export default function ContactModal({ isOpen, onOpenChange, onClose }: ModalPro
       setEmail('')
       setMessage('')
       onClose()
+      toast('Message sent! Talk to you soon, thank you.', { icon: '🤝' })
     }
   }, [formState.success])
 
