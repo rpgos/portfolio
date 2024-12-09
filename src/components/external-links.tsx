@@ -6,7 +6,7 @@ import Link from "next/link";
 import ContactModal from "./ContactModal";
 
 export default function ExternalLinks() {
-  const {isOpen, onOpen, onOpenChange } = useDisclosure()
+  const {isOpen, onOpen, onOpenChange, onClose } = useDisclosure()
 
   return (
     <div className="flex gap-3 p-2 w-fit bg-content1-800 rounded-full">
@@ -42,7 +42,7 @@ export default function ExternalLinks() {
           alt="Spotify"
         />
       </Link>
-      <ContactModal isOpen={isOpen} onOpenChange={onOpenChange} />
+      <ContactModal isOpen={isOpen} onOpenChange={onOpenChange} onClose={onClose} />
     </div>
   )
 }

@@ -5,7 +5,7 @@ import Section from "./section";
 import ContactModal from "./ContactModal";
 
 export default function AboutSection() {
-  const {isOpen, onOpen, onOpenChange } = useDisclosure()
+  const {isOpen, onOpen, onOpenChange, onClose } = useDisclosure()
 
   return (
     <Section id="about" title="About">
@@ -40,7 +40,7 @@ export default function AboutSection() {
         <Link target="_blank" href="https://open.spotify.com/artist/1Zd6VFfOVh04zXMVpK96Xy?si=QOPzPpg3SwCKHvzxw0ubGQ">create music</Link>,
         play tennis, bake my own pizza and hangout with friends.
       </p>
-      <ContactModal isOpen={isOpen} onOpenChange={onOpenChange} />
+      <ContactModal isOpen={isOpen} onOpenChange={onOpenChange} onClose={onClose} />
     </Section>
   )
 }

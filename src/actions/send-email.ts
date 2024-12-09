@@ -1,3 +1,5 @@
+'use server'
+
 import nodemailer from 'nodemailer'
 import Mail from 'nodemailer/lib/mailer';
 import { z } from "zod"
@@ -9,6 +11,7 @@ const messageSchema = z.object({
 })
 
 interface MessageFormState {
+  success: boolean
   errors: {
     name?: string[],
     email?: string[],
@@ -26,6 +29,7 @@ export default async function sendEmail(formState: MessageFormState, formData: F
 
   if(!parsedMessage.success) {
     return {
+      success: false,
       errors: parsedMessage.error.flatten().fieldErrors
     }
   }
@@ -48,10 +52,11 @@ export default async function sendEmail(formState: MessageFormState, formData: F
   const res = await transport.sendMail(mailOptions)
   
   if(res.accepted.length) {
-    return { errors: {} }
+    return { success: true, errors: {} }
   }
   
   return {
+    success: false,
     errors: {
       _form: ['Failed to send message. Please try again later.']
     }
