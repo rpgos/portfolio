@@ -25,6 +25,7 @@ export default function ContactModal({ isOpen, onOpenChange, onClose }: ModalPro
       onClose()
       toast('Message sent! Talk to you soon, thank you.', { icon: '🤝' })
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [formState.success])
 
   return (
