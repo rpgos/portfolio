@@ -83,6 +83,13 @@ export const jobs: Job[] = [
 
 export const projects: Job[] = [
   {
+    title: "React Kofi widget",
+    description: "NPM package for a React floating button component to accept donations to your Ko-fi account without \
+    leaving your app. Bundled with Rollup",
+    stack: ["React", "NPM", "Rollup"],
+    companyUrl: "https://www.npmjs.com/package/kofi-react-widget"
+  },
+  {
     title: "King Gizzard's Last Release",
     description: "Designed and developed a Next.js app with TailwindCSS that uses Spotify's API for data consumption \
       and gives music recommendations. Used Vercel for deployment, test environments and DB hosting. Developed a payment solution \
