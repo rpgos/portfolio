@@ -19,7 +19,7 @@ export const jobs: Job[] = [
       Also responsible for improving team/company processes, bringing Agile methodologies and best practices. \
       Responsible for an API integration to consume gigmit data and perform authentication with JWT for a mobile app, \
       in a project with 3 european partners",
-    stack: ["Ruby on Rails", "Backbone.js", "Postgres", "Docker", "SCRUM", "Elasticsearch", "Figma", "Kanban", "JWT"],
+    stack: ["Ruby on Rails", "Backbone.js", "Postgres", "Docker", "SCRUM", "Elasticsearch", "Redis", "Figma", "Kanban", "JWT"],
     company: "gigmit",
     companyUrl: "https://www.gigmit.com"
   },
@@ -30,7 +30,7 @@ export const jobs: Job[] = [
     description: "Ruby on Rails and React developer on a real estate analytics platform, responsible for migrating \
       the front-end to React, refactor and re-structure the backend and implement best practices, useful design patterns \
       and impove test coverage, writing meaningful and reliable unit and integration tests.",
-    stack: ["Ruby on Rails", "React", "Postgres", "Docker", "SCRUM", "AWS"],
+    stack: ["Ruby on Rails", "React", "Postgres", "Docker", "SCRUM", "AWS", "Redis"],
     company: "realxdata (now a Moody's company)",
     companyUrl: "https://www.moodyscre.com/persona/emea/"
   },
@@ -41,7 +41,7 @@ export const jobs: Job[] = [
     description: "Full-Stack developer, working mostly with Ruby on Rails and React and in a short project with \
       Django and Android native development. The main projects I worked on were an e-commerce platform for agriculture \
       goods and a fintech platform for alternative investments.",
-    stack: ["Ruby on Rails", "React", "Postgres", "SQLite", "Django", "Android"],
+    stack: ["Ruby on Rails", "React", "Postgres", "SQLite", "Redis", "Django", "Android"],
     company: "Runtime Revolution",
     companyUrl: "https://www.runtime-revolution.com/"
   },
