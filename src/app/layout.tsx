@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Providers from "./providers";
+import { Analytics } from "@vercel/analytics/react"
 
 const myFont = localFont({
   src: "./fonts/FacultyGlyphic-Regular.ttf",
@@ -25,6 +26,7 @@ export default function RootLayout({
         <Providers>
           {children}
         </Providers>
+        <Analytics />
       </body>
     </html>
   );
