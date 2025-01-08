@@ -36,8 +36,8 @@ export default function AboutSection() {
         solve problems and achieve exceptional results together.
       </p>
       <p>
-        On my free time, I like to &nbsp;
-        <Link target="_blank" href="https://open.spotify.com/artist/1Zd6VFfOVh04zXMVpK96Xy?si=QOPzPpg3SwCKHvzxw0ubGQ">create music</Link>,
+        On my free time, I &nbsp;
+        <Link target="_blank" href="https://open.spotify.com/artist/1Zd6VFfOVh04zXMVpK96Xy?si=QOPzPpg3SwCKHvzxw0ubGQ">compose and record music</Link>,
         play tennis, bake my own pizza and hangout with friends.
       </p>
       <ContactModal isOpen={isOpen} onOpenChange={onOpenChange} onClose={onClose} />
