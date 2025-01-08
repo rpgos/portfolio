@@ -1,0 +1,11 @@
+{
+  "about": {
+    "title": "About",
+    "introduction": "I'm a developer focused on usability, design and performance.",
+    "copy1": "This is a simple example of how to use i18next with SvelteKit.",
+    "copy2": "This is a simple example of how to use i18next with SvelteKit.",
+    "copy3": "This is a simple example of how to use i18next with SvelteKit.",
+    "copy4": "This is a simple example of how to use i18next with SvelteKit.",
+    "copy5": "This is a simple example of how to use i18next with SvelteKit."
+  }
+}
