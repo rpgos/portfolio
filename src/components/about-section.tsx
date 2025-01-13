@@ -3,42 +3,43 @@
 import { Link, useDisclosure } from "@nextui-org/react";
 import Section from "./section";
 import ContactModal from "./ContactModal";
+import { useTranslations } from "next-intl";
 
 export default function AboutSection() {
   const {isOpen, onOpen, onOpenChange, onClose } = useDisclosure()
+  const t = useTranslations('about')
 
   return (
-    <Section id="about" title="About">
+    <Section id="about" title={t('title')}>
       <p>
-        {"I'm a developer focused on usability, design and performance."}
+        {t('introduction')}
       </p>
       <p>
-        With almost a decade of experience, I&apos;ve designed, developed and
-        maintained complex solutions for a wide range of industries, from 
-        <Link target="_blank" href="https://agrimp.com/">agricultural fair-trade platforms</Link> and&nbsp;
-        <Link target="_blank" href="https://www.moodyscre.com/persona/emea/">real
-        estate portfolio management</Link> to <Link target="_blank" href="https://www.gigmit.com">
-        live music booking platforms</Link>.
+        {
+          t.rich('copy1', {
+            agrimp: (chunks) => <Link target="_blank" href="https://agrimp.com/">{chunks}</Link>,
+            realxdata: (chunks) => <Link target="_blank" href="https://www.moodyscre.com/persona/emea/">{chunks}</Link>,
+            gigmit: (chunks) => <Link target="_blank" href="https://www.gigmit.com">{chunks}</Link>,
+          })
+        }
       </p>
       <p>
-        I&apos;ve successfully worked with cross-functional teams ranging from 2 to
-        20+ engineers, using modern technologies like Ruby on Rails, React, Next.js and
-        Elasticsearch, among others, and using agile methodologies like Scrum
-        and Kanban.
+        {t('copy2')}
       </p>
       <p>
-        Currently I am looking for a new challenge and company with a product and values
-        I can identify myself with and with a clear roadmap of the future we can build together
-        as a team. If you&apos;re looking for a team player, <Link onClick={onOpen} href="#">send me a message!</Link>
+        {
+          t.rich('copy3', { message: (chunks) => <Link onClick={onOpen} href="#">{chunks}</Link> })
+        }
       </p>
       <p>
-        I&apos;m driven by collaboration and open communication in order to build great team spirit,
-        solve problems and achieve exceptional results together.
+        {t('copy4')}
       </p>
       <p>
-        On my free time, I &nbsp;
-        <Link target="_blank" href="https://open.spotify.com/artist/1Zd6VFfOVh04zXMVpK96Xy?si=QOPzPpg3SwCKHvzxw0ubGQ">compose and record music</Link>,
-        play tennis, bake my own pizza and hangout with friends.
+        {
+          t.rich('copy5', {
+            spotify: (chunks) => <Link target="_blank" href="https://open.spotify.com/artist/1Zd6VFfOVh04zXMVpK96Xy?si=QOPzPpg3SwCKHvzxw0ubGQ">{chunks}</Link>
+          })
+        }
       </p>
       <ContactModal isOpen={isOpen} onOpenChange={onOpenChange} onClose={onClose} />
     </Section>

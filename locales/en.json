@@ -2,10 +2,10 @@
   "about": {
     "title": "About",
     "introduction": "I'm a developer focused on usability, design and performance.",
-    "copy1": "This is a simple example of how to use i18next with SvelteKit.",
-    "copy2": "This is a simple example of how to use i18next with SvelteKit.",
-    "copy3": "This is a simple example of how to use i18next with SvelteKit.",
-    "copy4": "This is a simple example of how to use i18next with SvelteKit.",
-    "copy5": "This is a simple example of how to use i18next with SvelteKit."
+    "copy1": "With almost a decade of experience, I've designed, developed and maintained complex solutions for a wide range of industries, from <agrimp>agricultural fair-trade platforms</agrimp> and <realxdata>real estate portfolio management</realxdata> to <gigmit>live music booking platforms</gigmit>.",
+    "copy2": "I've successfully worked with cross-functional teams ranging from 2 to 20+ engineers, using modern technologies like Ruby on Rails, React, Next.js and Elasticsearch, among others, and using agile methodologies like Scrum and Kanban.",
+    "copy3": "Currently I am looking for a new challenge and company with a product and values I can identify myself with and with a clear roadmap of the future we can build together as a team. If you're looking for a team player, <message>send me a message!</message>",
+    "copy4": "I'm driven by collaboration and open communication in order to build great team spirit,solve problems and achieve exceptional results together.",
+    "copy5": "On my free time, I <spotify>compose and record music</spotify>, play tennis, bake my own pizza and hangout with friends."
   }
 }
