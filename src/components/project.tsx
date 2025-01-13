@@ -17,9 +17,9 @@ export default function Project({ job }: ProjectProps) {
       {
         job.start && job.end &&
         <div className="text-xs flex flex-col items-center">
-          <span>{job.start}</span>
+          <span>{job.end}</span>
           <span className="whitespace-pre-line">{".\n.\n."}</span>
-          <span className="mt-1">{job.end}</span>
+          <span className="mt-1">{job.start}</span>
           {job.endYear && <span className="mt-3">{job.endYear}</span>}
         </div>
       }
