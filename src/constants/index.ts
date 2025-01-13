@@ -83,7 +83,7 @@ export const jobs: Job[] = [
 
 export const projects: Job[] = [
   {
-    title: "React Kofi widget",
+    title: "React Kofi Widget",
     description: "NPM package for a React floating button component to accept donations to your Ko-fi account without \
     leaving your app. Bundled with Rollup",
     stack: ["React", "Typescript", "NPM", "Rollup"],
