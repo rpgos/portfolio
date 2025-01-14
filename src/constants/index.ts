@@ -94,7 +94,7 @@ export const projects: Job[] = [
     description: "Designed and developed a Next.js app with TailwindCSS that uses Spotify's API for data consumption \
       and gives music recommendations. Used Vercel for deployment, test environments and DB hosting. Developed a payment solution \
       with Paypal but removed the payment feature for the time being.",
-    stack: ["Next.js", "React", "Spotify API", "Paypal", "Prisma", "Typescript", "TailwindCSS"],
+    stack: ["Next.js", "React", "Spotify API", "Paypal", "Auth.js", "Prisma", "Typescript", "TailwindCSS"],
     companyUrl: "https://kinggizzardlastrelease.vercel.app/"
   },
   {
