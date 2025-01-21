@@ -2,7 +2,7 @@
 
 import { Link, useDisclosure } from "@nextui-org/react";
 import Section from "./section";
-import ContactModal from "./ContactModal";
+import ContactModal from "./contact-modal";
 import { useTranslations } from "next-intl";
 
 export default function AboutSection() {
