@@ -19,5 +19,13 @@
       "deloitte": "Part of the maintenance team on a project for a major insurance company in Portugal, working on their AS400 system (COBOL), reporting and fixing bugs. In a different internal project for Deloitte, I was responsible for the initial development of a website for HR management, designing the data model and developing the frontend layout.",
       "youship": "Internship as part of the final semester of my degree, where I was responsible for the Android development of a prototype for a shipping app, where a user sending a package is connected with a user who can transport it. Also responsible for a market study on similar apps and the product design."
     }
+  },
+  "sideProjects": {
+    "title": "Side Projects",
+    "descriptions": {
+      "kofi": "NPM package for a React floating button component to accept donations to your Ko-fi account without leaving your app. Bundled with Rollup",
+      "kglw": "Designed and developed a Next.js app with TailwindCSS that uses Spotify's API for data consumption and gives music recommendations. Used Vercel for deployment, test environments and DB hosting. Developed a payment solution with Paypal but removed the payment feature for the time being.",
+      "almudawwar": "Designed, developed and deployed an SPA for my musical project using React, Vite, Typescript and Bulma to help on the design side. Used Vercel for deployment, test environments and file hosting."
+    }
   }
 }

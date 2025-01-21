@@ -10,7 +10,7 @@ export default function ExperienceSection() {
   return (
     <Section id="career" title={t('title')}>
       {
-        jobs.map(job => (<Project key={job.id} job={job} />))
+        jobs.map(job => (<Project key={job.id} job={job} translationKey="career" />))
       }
       <Link target="_blank" href="/cv.pdf" underline="always" className="text-sm">
         {t('view_cv')}

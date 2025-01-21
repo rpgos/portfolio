@@ -5,10 +5,11 @@ import Link from "next/link";
 
 interface ProjectProps {
   job: Job
+  translationKey: string
 }
 
-export default function Project({ job }: ProjectProps) {
-  const t = useTranslations('career')
+export default function Project({ job, translationKey }: ProjectProps) {
+  const t = useTranslations(translationKey)
 
   return (
     <Link
