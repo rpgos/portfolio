@@ -1,4 +1,5 @@
 export type Job = {
+  id: string
   start?: string | number
   end?: string | number
   endYear?: number
@@ -11,6 +12,7 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    id: "gigmit",
     start: 2021,
     end: 2024,
     title: "Senior Full Stack Developer",
@@ -24,6 +26,7 @@ export const jobs: Job[] = [
     companyUrl: "https://www.gigmit.com"
   },
   {
+    id: "realxdata",
     start: 2019,
     end: 2021,
     title: "Full Stack Developer",
@@ -35,6 +38,7 @@ export const jobs: Job[] = [
     companyUrl: "https://www.moodyscre.com/persona/emea/"
   },
   {
+    id: "runtime",
     start: 2017,
     end: 2019,
     title: "Full Stack Developer",
@@ -46,6 +50,7 @@ export const jobs: Job[] = [
     companyUrl: "https://www.runtime-revolution.com/"
   },
   {
+    id: "apibeton",
     start: 2016,
     end: 2017,
     title: "Android Developer",
@@ -56,6 +61,7 @@ export const jobs: Job[] = [
     companyUrl: "https://apibeton.com/"
   },
   {
+    id: "deloitte",
     start: 2015,
     end: 2016,
     title: "Junior Programmer",
@@ -68,6 +74,7 @@ export const jobs: Job[] = [
     companyUrl: "https://www.deloitte.com/pt/pt.html"
   },
   {
+    id: "youship",
     start: "Feb",
     end: "Jul",
     endYear: 2015,
@@ -83,6 +90,7 @@ export const jobs: Job[] = [
 
 export const projects: Job[] = [
   {
+    id: "kofi",
     title: "React Kofi Widget",
     description: "NPM package for a React floating button component to accept donations to your Ko-fi account without \
     leaving your app. Bundled with Rollup",
@@ -90,6 +98,7 @@ export const projects: Job[] = [
     companyUrl: "https://www.npmjs.com/package/kofi-react-widget"
   },
   {
+    id: "kglw",
     title: "King Gizzard's Last Release",
     description: "Designed and developed a Next.js app with TailwindCSS that uses Spotify's API for data consumption \
       and gives music recommendations. Used Vercel for deployment, test environments and DB hosting. Developed a payment solution \
@@ -98,6 +107,7 @@ export const projects: Job[] = [
     companyUrl: "https://kinggizzardlastrelease.vercel.app/"
   },
   {
+    id: "almudawwar",
     title: "Al-Mudawwar",
     description: "Designed, developed and deployed an SPA for my musical project using React, Vite, Typescript and Bulma to \
     help on the design side. Used Vercel for deployment, test environments and file hosting.",

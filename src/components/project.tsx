@@ -1,5 +1,6 @@
 import { Job } from "@/constants";
 import { Chip } from "@nextui-org/react";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 interface ProjectProps {
@@ -7,6 +8,8 @@ interface ProjectProps {
 }
 
 export default function Project({ job }: ProjectProps) {
+  const t = useTranslations('career')
+
   return (
     <Link
       href={job.companyUrl}
@@ -29,7 +32,7 @@ export default function Project({ job }: ProjectProps) {
           {job.company && <span className="sm:ml-2">@ {job.company}</span>}
         </div>
         <p className="">
-          {job.description}
+          {t(`descriptions.${job.id}`)}
         </p>
         <div className="flex gap-2 flex-wrap">
           {

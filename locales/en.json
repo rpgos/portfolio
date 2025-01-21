@@ -7,5 +7,17 @@
     "copy3": "Currently I am looking for a new challenge and company with a product and values I can identify myself with and with a clear roadmap of the future we can build together as a team. If you're looking for a team player, <message>send me a message!</message>",
     "copy4": "I'm driven by collaboration and open communication in order to build great team spirit,solve problems and achieve exceptional results together.",
     "copy5": "On my free time, I <spotify>compose and record music</spotify>, play tennis, bake my own pizza and hangout with friends."
+  },
+  "career": {
+    "title": "Career",
+    "view_cv": "View full CV",
+    "descriptions": {
+      "gigmit": "Full-Stack developer on an artist booking platform with in-app messaging, embedded media, ElasticSearch for quick artist search and filtering and A/B testing with Google Optimize. Also responsible for improving team/company processes, bringing Agile methodologies and best practices. Responsible for an API integration to consume gigmit data and perform authentication with JWT for a mobile app, in a project with 3 european partners",
+      "realxdata": "Ruby on Rails and React developer on a real estate analytics platform, responsible for migrating the front-end to React, refactor and re-structure the backend and implement best practices, useful design patterns and impove test coverage, writing meaningful and reliable unit and integration tests.",
+      "runtime": "Full-Stack developer, working mostly with Ruby on Rails and React and in a short project with Django and Android native development. The main projects I worked on were an e-commerce platform for agriculture goods and a fintech platform for alternative investments.",
+      "apibeton": "Freelance project developing an Android app that receives data from multiple sensors in a truck to provide drivers with real time monitorization of core aspects of their load and route.",
+      "deloitte": "Part of the maintenance team on a project for a major insurance company in Portugal, working on their AS400 system (COBOL), reporting and fixing bugs. In a different internal project for Deloitte, I was responsible for the initial development of a website for HR management, designing the data model and developing the frontend layout.",
+      "youship": "Internship as part of the final semester of my degree, where I was responsible for the Android development of a prototype for a shipping app, where a user sending a package is connected with a user who can transport it. Also responsible for a market study on similar apps and the product design."
+    }
   }
 }
