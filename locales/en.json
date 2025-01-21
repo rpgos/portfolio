@@ -27,5 +27,8 @@
       "kglw": "Designed and developed a Next.js app with TailwindCSS that uses Spotify's API for data consumption and gives music recommendations. Used Vercel for deployment, test environments and DB hosting. Developed a payment solution with Paypal but removed the payment feature for the time being.",
       "almudawwar": "Designed, developed and deployed an SPA for my musical project using React, Vite, Typescript and Bulma to help on the design side. Used Vercel for deployment, test environments and file hosting."
     }
+  },
+  "footer": {
+    "builtBy": "Designed and built by Rodrigo Guerreiro with Next.js, NextUI and TailwindCSS. Deployed with Vercel."
   }
 }

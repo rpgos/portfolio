@@ -1,7 +1,11 @@
+import { useTranslations } from "next-intl";
+
 export default function Footer() {
+  const t = useTranslations('footer')
+
   return (
     <span className="text-sm text-content1-50 gradient-background p-2 rounded-lg">
-      Designed and built by Rodrigo Guerreiro with Next.js, NextUI and TailwindCSS. Deployed with Vercel.
+      {t('builtBy')}
     </span>
   )
 }
