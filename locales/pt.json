@@ -1,3 +1,34 @@
 {
-  
+  "about": {
+    "title": "Sobre",
+    "introduction": "Developer focado em usabilidade, design e performance.",
+    "copy1": "Com quase uma década de experiência, tenho projectado, desenvolvido e mantido soluções complexas para variadas indústrias, desde plataformas de <agrimp>comércio agrícola</agrimp> e <realxdata>gestão de portfólios imobiliários</realxdata> até plataformas de <gigmit>booking de música ao vivo</gigmit>.",
+    "copy2": "Trabalhei com equipas cross-functional com vários setups desde 2 até 20+ engenheiros, com frameworks líderes do mercado como Ruby on Rails, React, Next.js e Elasticsearch, entre outras, e usando metodologias como Scrum e Kanban.",
+    "copy3": "Neste momento estou à procura de um novo desafio e empresa com um projecto e valores com os quais me identifico e uma visão para um futuro que possamos contruit como equipa. Se posso ajudar a tua equipa, <message>envia-me uma mensagem!</message>",
+    "copy4": "Eu valorizo colaboração e comunicação abertas de maneira a criar espírito de equipa, resolver problemas e atingir resultados.",
+    "copy5": "No tempo livre, <spotify>componho e gravo música</spotify>, jogo ténis e crio arte generativa com TouchDesigner."
+  },
+  "career": {
+    "title": "Carreira",
+    "view_cv": "CV Completo",
+    "descriptions": {
+      "gigmit": "Full-Stack developer numa plataform de booking de artistas com mensagens in-app, mídia integrada, Elasticsearch para procura e filtragem de artistas a A/B Testing com Google Optimize. Também fui responsável por melhorar os processos da equipa/empresa, trazendo metodologias ágeis e best practices. Responsável por integração de API para consumo de dados e autenticação com JWT para uma app móvel, num projecto com 3 parceiros europeus.",
+      "realxdata": "Ruby on Rails e React developer numa plataforma analítica de imobiliário, responsável por migrar o Frontend para React, fazer um refactor e reestruturar o Backend e implementar Best Practices, padrões de design e melhorar a cobertura de testes, escrevendo testes unitários e integração fiáveis.",
+      "runtime": "Full-Stack developer, onde trabalhei maioritariamente com RoR e React e num projecto curto com Django/Python e Android. Os projectos principais que desenvolvi foram uma plataforma de e-commerce para produtos agrícolas e uma plataforma de fintech para investimentos alternativos.",
+      "apibeton": "Projecto freelance em que desenvolvi uma app Android para receber dados de múltiplos sensores num camião e transmitir aos condutores monitorização em tempo real da carga e rota.",
+      "deloitte": "Parte da equipa de manutenção de um sistema AS400 (COBOL) para uma das maiores seguradoras do país, reportando e removendo erros. Num projecto interno, responsável pelo desenvolvimento inicial de um website para gestão de recursos humanos, design do modelo de dados e desenvolvimento do frontend.",
+      "youship": "Estágio parte do semestre final da licenciatura, onde fui responsável pelo desenvolvimento Android de um protótipdo de uma app para envio de encomendas, onde um utilizador remetente é conectado com um utilizador que pode transportar a encomenda. Também responsável por um estudo de mercado sobre o design do produto."
+    }
+  },
+  "sideProjects": {
+    "title": "Projectos Pessoais",
+    "descriptions": {
+      "kofi": "Pacote NPM para um widget em React para aceitar doações para a tua conta Ko-fi sem nunca sair da tua página. Bundled com Rollup",
+      "kglw": "Projectei e desenvolvi uma app Next.js com TailwindCSS que usa a API do Spotify para consumir dados e oferece recomendações músicais. Vercel para publicação, ambientes de test e hospedagem da DB. Desenvolvi pagamentos com Paypal, mas de momento removi essa feature em prol do Ko-fi.",
+      "almudawwar": "Projectei e desenvolvi uma SPA para o meu projecto musical com React, Vite, Typescript e Bulma para ajudar no design. Usei o Vercel para publicação, ambientes de test e hospedagem de ficheiros."
+    }
+  },
+  "footer": {
+    "builtBy": "Projectado e desenvolvido por Rodrigo Guerreiro com Next.js, NextUI e TailwindCSS. Publicado com Vercel."
+  }
 }
