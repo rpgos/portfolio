@@ -2,6 +2,7 @@ import AboutSection from "@/components/about-section";
 import ExperienceSection from "@/components/experience-section";
 import ExternalLinks from "@/components/external-links";
 import Footer from "@/components/footer";
+import LanguageSelect from "@/components/language-select";
 import SideProjectsSection from "@/components/side-projects-section";
 import ThemeSwitch from "@/components/theme-switch";
 
@@ -18,7 +19,10 @@ export default function Home() {
             Senior Full Stack Developer
           </span>
           <ExternalLinks />
-          <ThemeSwitch />
+          <div>
+            <ThemeSwitch />
+            <LanguageSelect />
+          </div>
         </header>
       </div>
       <div className="h-full">
