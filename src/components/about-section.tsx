@@ -1,6 +1,6 @@
 'use client'
 
-import { Link, useDisclosure } from "@nextui-org/react";
+import { Link, useDisclosure } from "@heroui/react";
 import Section from "./section";
 import ContactModal from "./contact-modal";
 import { useTranslations } from "next-intl";
@@ -28,7 +28,7 @@ export default function AboutSection() {
       </p>
       <p>
         {
-          t.rich('copy3', { message: (chunks) => <Link onClick={onOpen} href="#">{chunks}</Link> })
+          t.rich('copy3', { message: (chunks) => <Link onPress={onOpen} href="#">{chunks}</Link> })
         }
       </p>
       <p>

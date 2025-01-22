@@ -1,6 +1,6 @@
 
 
-import { NextUIProvider } from "@nextui-org/react"
+import { HeroUIProvider } from "@heroui/react"
 import { ThemeProvider } from "next-themes"
 import React from "react"
 import { Toaster } from "react-hot-toast"
@@ -15,13 +15,13 @@ export default async function Providers({ children }: ProvidersProps) {
   const messages = await getMessages();
 
   return (
-    <NextUIProvider>
+    <HeroUIProvider>
       <ThemeProvider attribute="class" defaultTheme="dark">
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
         <Toaster />
       </ThemeProvider>
-    </NextUIProvider>
+    </HeroUIProvider>
   )
 }

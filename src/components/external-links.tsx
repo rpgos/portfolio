@@ -1,6 +1,6 @@
 'use client'
 
-import { useDisclosure } from "@nextui-org/react";
+import { useDisclosure } from "@heroui/react";
 import Image from "next/image";
 import Link from "next/link";
 import ContactModal from "./contact-modal";

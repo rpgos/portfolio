@@ -1,7 +1,7 @@
 'use client'
 
 import sendEmail from "@/actions/send-email";
-import { Button, Input, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, Textarea } from "@nextui-org/react";
+import { Button, Input, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, Textarea } from "@heroui/react";
 import { useActionState, useEffect, useState } from "react";
 import toast from "react-hot-toast";
 

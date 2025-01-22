@@ -1,5 +1,5 @@
 import { Job } from "@/constants";
-import { Chip } from "@nextui-org/react";
+import { Chip } from "@heroui/react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 
