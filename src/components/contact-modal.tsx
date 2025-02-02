@@ -77,7 +77,7 @@ export default function ContactModal({ isOpen, onOpenChange, onClose }: ModalPro
             />
           </ModalBody>
           <ModalFooter>
-            <Button isLoading={pending} type="submit" className="text-content1-50 dark:text-content1-900" color="primary">
+            <Button isLoading={pending} type="submit" className="text-content1-50 dark:text-content1-900" color="primary" aria-label="Send message">
               Send
             </Button>
           </ModalFooter>

@@ -19,7 +19,7 @@ export default function LanguageSelect() {
       content: "bg-content1-800 text-content1-50"
     }}>
       <DropdownTrigger>
-        <Button className="w-min uppercase" variant="light">
+        <Button className="w-min uppercase" variant="light" aria-label="Change language">
           {FLAGS[currentLocale]}
         </Button>
       </DropdownTrigger>

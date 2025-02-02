@@ -28,7 +28,7 @@ export default function AboutSection() {
       </p>
       <p>
         {
-          t.rich('copy3', { message: (chunks) => <Link onPress={onOpen} href="#">{chunks}</Link> })
+          t.rich('copy3', { message: (chunks) => <Link onPress={onOpen} href="#" aria-label="Open email modal">{chunks}</Link> })
         }
       </p>
       <p>
