@@ -4,7 +4,7 @@ import ExternalLinks from "@/components/external-links";
 import Footer from "@/components/footer";
 import LanguageSelect from "@/components/language-select";
 import SideProjectsSection from "@/components/side-projects-section";
-import ThemeSwitch from "@/components/theme-switch";
+import ThemeToggle from "@/components/theme-toggle";
 
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
           </span>
           <ExternalLinks />
           <div>
-            <ThemeSwitch />
+            <ThemeToggle />
             <LanguageSelect />
           </div>
         </header>
