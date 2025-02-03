@@ -19,7 +19,7 @@ export default function LanguageSelect() {
       content: "bg-content1-800 text-content1-50"
     }}>
       <DropdownTrigger>
-        <Button className="w-min uppercase" variant="light" aria-label="Change language">
+        <Button isIconOnly radius="full" className="w-min uppercase" variant="light" aria-label="Change language">
           {FLAGS[currentLocale]}
         </Button>
       </DropdownTrigger>
@@ -32,7 +32,7 @@ export default function LanguageSelect() {
         {
           locales.map(locale => 
             <DropdownItem key={locale} >
-              <Link className="flex gap-2 uppercase" href="/" locale={locale}>
+              <Link className="flex gap-2 uppercase items-center" href="/" locale={locale}>
                 {FLAGS[locale]}
                 {locale}
               </Link>

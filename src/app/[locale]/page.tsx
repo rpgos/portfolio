@@ -19,7 +19,7 @@ export default function Home() {
             Senior Full Stack Developer
           </span>
           <ExternalLinks />
-          <div>
+          <div className="flex gap-2">
             <ThemeToggle />
             <LanguageSelect />
           </div>
