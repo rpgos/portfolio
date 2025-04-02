@@ -1,12 +1,12 @@
 'use client'
 
-import { Link, useDisclosure } from "@heroui/react";
+import { Link } from "@heroui/react";
 import Section from "./section";
-import ContactModal from "./contact-modal";
+// import ContactModal from "./contact-modal";
 import { useTranslations } from "next-intl";
 
 export default function AboutSection() {
-  const {isOpen, onOpen, onOpenChange, onClose } = useDisclosure()
+  // const {isOpen, onOpen, onOpenChange, onClose } = useDisclosure()
   const t = useTranslations('about')
 
   return (
@@ -27,12 +27,12 @@ export default function AboutSection() {
         {t('copy2')}
       </p>
       <p>
-        {
-          t.rich('copy3', { message: (chunks) => <Link onPress={onOpen} href="#" aria-label="Open email modal">{chunks}</Link> })
-        }
+        {t('copy4')}
       </p>
       <p>
-        {t('copy4')}
+        {
+          t.rich('copy3', { imago: (chunks) => <Link target="_blank" href="https://www.imago-images.com/" aria-label="Open email modal">{chunks}</Link> })
+        }
       </p>
       <p>
         {
@@ -41,7 +41,7 @@ export default function AboutSection() {
           })
         }
       </p>
-      <ContactModal isOpen={isOpen} onOpenChange={onOpenChange} onClose={onClose} />
+      {/* <ContactModal isOpen={isOpen} onOpenChange={onOpenChange} onClose={onClose} /> */}
     </Section>
   )
 }
