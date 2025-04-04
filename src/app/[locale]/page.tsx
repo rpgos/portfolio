@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <div className="grid lg:grid-cols-2 items-center justify-items-center min-h-screen p-10 gap-10 sm:p-26 md:p-28">
       <div className="h-full w-full">
-        <header className="flex flex-col gap-6 lg:fixed">
-          <span className="text-6xl md:text-7xl">
+        <header className="flex flex-col gap-6 lg:fixed 2xl:mt-[15rem]">
+          <span className="text-6xl md:text-7xl 2xl:text-8xl">
             Rodrigo<br></br>Guerreiro
           </span>
-          <span className="text-lg">
+          <span className="text-lg 2xl:text-2xl">
             Senior Full Stack Developer
           </span>
           <ExternalLinks />
