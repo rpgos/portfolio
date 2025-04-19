@@ -43,7 +43,7 @@ export default async function sendEmail(formState: MessageFormState, formData: F
   })
 
   const mailOptions: Mail.Options = {
-    from: process.env.GMAIL_ID,
+    from: `Portfolio <${process.env.GMAIL_ID}>`,
     to: process.env.GMAIL_ID,
     subject: `Message from ${parsedMessage.data.name} - ${parsedMessage.data.email}`,
     text: parsedMessage.data.message
