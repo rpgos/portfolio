@@ -31,6 +31,6 @@
     }
   },
   "footer": {
-    "builtBy": "Designed and built by Rodrigo Guerreiro with Next.js, NextUI and TailwindCSS. Deployed with Vercel."
+    "builtBy": "Designed and built by Rodrigo Guerreiro with Next.js, HeroUI and TailwindCSS. Deployed with Vercel."
   }
 }
