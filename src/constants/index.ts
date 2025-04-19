@@ -12,6 +12,17 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    id: "imago",
+    start: 2025,
+    title: "Full Stack Developer",
+    description: "Full-Stack developer on a leading media provider in the world, working on taking the search experience to \
+      the next level providing our users with personalized results. Responsible for refactoring and modernizing legacy \
+      components and enforcing best practices and uphold high code quality standards.",
+    stack: ["React", "Elasticsearch", "PHP Slim", "Docker", "Redis", "Figma", "Kanban", 'Storybook'],
+    company: "Imago",
+    companyUrl: "https://www.imago-images.com"
+  },
+  {
     id: "gigmit",
     start: 2021,
     end: 2024,

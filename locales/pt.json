@@ -11,7 +11,9 @@
   "career": {
     "title": "Carreira",
     "view_cv": "CV Completo",
+    "present": "Presente",
     "descriptions": {
+      "imago": "Full-Stack developer numa fornecedora de mídia líder no mundo, onde estou a trabalhar para levar a experiência de procura para o próximo nível, oferecendo resultados personalizados. Responsável por refactorizar e modernizar componentes legacy, aplicar boas práticas e manter altos padrões de qualidade de código.",
       "gigmit": "Full-Stack developer numa plataform de booking de artistas com mensagens in-app, mídia integrada, Elasticsearch para procura e filtragem de artistas a A/B Testing com Google Optimize. Também fui responsável por melhorar os processos da equipa/empresa, trazendo metodologias ágeis e best practices. Responsável por integração de API para consumo de dados e autenticação com JWT para uma app móvel, num projecto com 3 parceiros europeus.",
       "realxdata": "Ruby on Rails e React developer numa plataforma analítica de imobiliário, responsável por migrar o Frontend para React, fazer um refactor e reestruturar o Backend e implementar Best Practices, padrões de design e melhorar a cobertura de testes, escrevendo testes unitários e integração fiáveis.",
       "runtime": "Full-Stack developer, onde trabalhei maioritariamente com RoR e React e num projecto curto com Django/Python e Android. Os projectos principais que desenvolvi foram uma plataforma de e-commerce para produtos agrícolas e uma plataforma de fintech para investimentos alternativos.",

@@ -11,7 +11,9 @@
   "career": {
     "title": "Career",
     "view_cv": "View full CV",
+    "present": "Present",
     "descriptions": {
+      "imago": "Full-Stack developer on a leading media provider in the world, working on taking the search experience to the next level providing our users with personalized results. Responsible for refactoring and modernizing legacy components, enforcing best practices and uphold high code quality standards.",
       "gigmit": "Full-Stack developer on an artist booking platform with in-app messaging, embedded media, ElasticSearch for quick artist search and filtering and A/B testing with Google Optimize. Also responsible for improving team/company processes, bringing Agile methodologies and best practices. Responsible for an API integration to consume gigmit data and perform authentication with JWT for a mobile app, in a project with 3 european partners.",
       "realxdata": "Ruby on Rails and React developer on a real estate analytics platform, responsible for migrating the front-end to React, refactor and re-structure the backend and implement best practices, useful design patterns and impove test coverage, writing meaningful and reliable unit and integration tests.",
       "runtime": "Full-Stack developer, working mostly with Ruby on Rails and React and in a short project with Django and Android native development. The main projects I worked on were an e-commerce platform for agriculture goods and a fintech platform for alternative investments.",

@@ -19,9 +19,9 @@ export default function Project({ job, translationKey }: ProjectProps) {
       className="flex gap-3 text-sm p-2 rounded-lg text-content1-900 dark:text-content1-50 bg-content1-200 dark:bg-content1-800 items-center hover:scale-105 transform transition"
     >
       {
-        job.start && job.end &&
+        job.start &&
         <div className="text-xs flex flex-col items-center">
-          <span>{job.end}</span>
+          <span>{job.end || t('present')}</span>
           <span className="whitespace-pre-line">{".\n.\n."}</span>
           <span className="mt-1">{job.start}</span>
           {job.endYear && <span className="mt-3">{job.endYear}</span>}
