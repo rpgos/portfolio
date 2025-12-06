@@ -18,7 +18,7 @@ export const jobs: Job[] = [
     description: "Full-Stack developer on a leading media provider in the world, working on taking the search experience to \
       the next level providing our users with personalized results. Responsible for refactoring and modernizing legacy \
       components and enforcing best practices and uphold high code quality standards.",
-    stack: ["React", "Elasticsearch", "Kubernetes", "PHP Slim", "Docker", "Redis", "Gitlab Actions", "Ansible", "Figma", "Kanban", 'Storybook'],
+    stack: ["React", "Elasticsearch", "Kubernetes", "PHP Slim", "Python", "FastAPI", "Docker", "Redis", "Gitlab Actions", "Ansible", "Figma", "Kanban", 'Storybook'],
     company: "Imago",
     companyUrl: "https://www.imago-images.com"
   },
