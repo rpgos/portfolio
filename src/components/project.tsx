@@ -37,7 +37,7 @@ export default function Project({ job, translationKey }: ProjectProps) {
         </p>
         <div className="flex gap-2 flex-wrap">
           {
-            job.stack.map(tech => <Chip key={tech} variant="flat" className="bg-content1-600 text-content1-50" size="sm">{tech}</Chip>)
+            job.stack.map(tech => <Chip key={tech} variant="flat" className="flex items-center bg-content1-600 text-content1-50 px-1 text-xs" size="sm">{tech}</Chip>)
           }
         </div>
       </div>
